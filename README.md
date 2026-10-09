@@ -6,9 +6,6 @@ Project Details -
 
 Project goals -
     Create a tool that can allow people to pull up a home in (city) and get info about it that would be useful for home renovators. This would include building code updates, when the house was build, when it was renovated, last sold, and land value. It would display this info hopefully in two timeline bars one above another so you can compare them.
-
-    This will make use of multiple tools to help with webscrapping.
-
 Tools being used -
     scraper - Rust
     csv - Rust
