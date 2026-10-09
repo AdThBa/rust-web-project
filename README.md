@@ -1,7 +1,10 @@
+# rust-web-project
+This should be a rust based web scraper for building codes and building dates, ect, ect. (More definition will be put in here later)
+
 Project Details -
     This is a project for college and will be based in rust and be focused on learning rust and applying it to making a webscraper.
 
-    Project goals -
+Project goals -
     Create a tool that can allow people to pull up a home in (city) and get info about it that would be useful for home renovators. This would include building code updates, when the house was build, when it was renovated, last sold, and land value. It would display this info hopefully in two timeline bars one above another so you can compare them.
 
     This will make use of multiple tools to help with webscrapping.
@@ -30,6 +33,3 @@ Tests
 Run the tests:
 
 cargo test
-
-# rust-web-project
-This should be a rust based web scraper for building codes and building dates, ect, ect. (More definition will be put in here later)
