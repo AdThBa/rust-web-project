@@ -23,6 +23,8 @@ fn main() -> anyhow::Result<()> {
     // Smoke-test the CSV reader with an inline string
     // This line should give a 'Home' of 123-45 | 123 Main St | built in 1968 
     let sample = "parcel_id,address,year_built\n123-45,123 Main St,1968\n";
+    // Notes for me - Cursor establishes a position so it can be read altho usually I'll have 'from_path("data/homes.csv")
+    // From_reader is a newer form of new (this is a just a future note)
     let mut reader = csv::Reader::from_reader(std::io::Cursor::new(sample));
     // Creates the Vector of homes (Honestly more like a list - This is a reminder for myself)
     let homes: Vec<Home> = reader.deserialize().collect::<Result<Vec<_>, _>>()?;
